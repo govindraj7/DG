@@ -43,11 +43,11 @@ class Config(object):
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "1001938062638"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001938062638"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "1001938062638")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001938062638")
     
     OWNER_ID = int(os.environ.get("OWNER_ID", "2071372702"))
     
